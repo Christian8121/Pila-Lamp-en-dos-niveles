@@ -67,4 +67,3 @@ systemctl status mysql
 
 
 
-
