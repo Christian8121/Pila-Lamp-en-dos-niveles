@@ -3,38 +3,31 @@
 
 Este proyecto configura dos máquinas virtuales con Vagrant: una con Apache y otra con MySQL. La máquina Apache tiene acceso a Internet, mientras que la máquina MySQL no tiene acceso a la red externa.
 
-## Configuración de Vagrant
+## Configuración de las maquinas
 
 - **SeverinoApache**: Servidor Apache, acceso a internet a través de NAT, puerto 8080 mapeado.
 - **SeverinoMysql**: Servidor MySQL, sin acceso a internet, red privada.
 
 ### Vagrantfile
 ```ruby
-# Código del Vagrantfile aquí
 Vagrant.configure("2") do |config|
-  # Configuración para SeverinoApache
-  config.vm.define "SeverinoApache" do |apache|
+
+  # Configuración para la máquina de Apache
+  config.vm.define "sevApache" do |apache|
     apache.vm.box = "ubuntu/bionic64"
-    apache.vm.hostname = "SeverinoApache"
-    apache.vm.network "forwarded_port", guest: 80, host: 8080  # Reenvío de puertos
-    apache.vm.network "public_network"  # Acceso a internet vía NAT
-    apache.vm.provision "shell", path: "apache_provision.sh"  # Script de aprovisionamiento
+    apache.vm.hostname = "sevApache"
+    apache.vm.network "forwarded_port", guest: 80, host: 8080
+    apache.vm.network "public_network"
+    apache.vm.provision "shell", path: "apache_provision.sh"
   end
 
-  # Configuración para SeverinoMysql
-  config.vm.define "SeverinoMysql" do |mysql|
+  # Configuración para la máquina de MySQL
+  config.vm.define "sevMysql" do |mysql|
     mysql.vm.box = "ubuntu/bionic64"
-    mysql.vm.hostname = "SeverinoMysql"
-    mysql.vm.network "private_network", type: "dhcp"  # Red privada, sin acceso a internet
-    mysql.vm.provision "shell", path: "mysql_provision.sh"  # Script de aprovisionamiento
-  end
-  # The most common configuration options are documented and commented below.
-  # For a complete reference, please see the online documentation at
-  # https://docs.vagrantup.com.
-
-  # Every Vagrant development environment requires a box. You can search for
-  # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "ubuntu/bionic64"  
+    mysql.vm.hostname = "sevMysql"
+    mysql.vm.network "private_network", type: "dhcp"
+    mysql.vm.provision "shell", path: "mysql_provision.sh"
+  end 
 
 # Código del script de aprovisionamiento para Apache aquí
 
