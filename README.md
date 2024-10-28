@@ -62,8 +62,15 @@ systemctl start mysql
 
 # Muestra el estado del servicio
 systemctl status mysql
+```
 
-Apache.png
+## Capturas de Pantalla
+
+### Apache en ejecución
+![Apache en ejecución](Apache.png)
+
+### MySQL en ejecución
+![MySQL en ejecución](screenshots/mysql_running.png)
 
 
 
