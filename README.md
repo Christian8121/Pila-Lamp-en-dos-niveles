@@ -63,7 +63,7 @@ systemctl start mysql
 # Muestra el estado del servicio
 systemctl status mysql
 
-
+Apache.png
 
 
 
