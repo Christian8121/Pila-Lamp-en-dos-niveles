@@ -25,7 +25,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "sevMysql" do |mysql|
     mysql.vm.box = "ubuntu/bionic64"
     mysql.vm.hostname = "sevMysql"
-    mysql.vm.network "private_network", type: "dhcp"
+    mysql.vm.network "private_network", ip: "192.168.40.10"
     mysql.vm.provision "shell", path: "mysql_provision.sh"
   end 
 
