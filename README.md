@@ -72,6 +72,11 @@ systemctl status mysql
 ### MySQL en ejecución
 ![Captura de pantalla 2024-11-02 130516](https://github.com/user-attachments/assets/28bbb187-b8bb-4552-9db0-bc4c8d8e5e50)
 
+![Captura de pantalla 2024-11-02 130624](https://github.com/user-attachments/assets/f7b73966-db85-4584-b62a-2f9043e270c0)
+![Captura de pantalla 2024-11-02 130700](https://github.com/user-attachments/assets/c5edb394-0cca-4bab-bc7b-c15f1bf53089)
+
+
+
 
 
 
