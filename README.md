@@ -70,7 +70,8 @@ systemctl status mysql
 ![Apache en ejecución](Apache.png)
 
 ### MySQL en ejecución
-![MySQL en ejecución](screenshots/mysql_running.png)
+![Captura de pantalla 2024-11-02 130516](https://github.com/user-attachments/assets/28bbb187-b8bb-4552-9db0-bc4c8d8e5e50)
+
 
 
 
