@@ -31,6 +31,8 @@ Vagrant.configure("2") do |config|
 
 # Código del script de aprovisionamiento para Apache aquí
 
+# Código del apache_provision.sh
+
 # Actualiza los paquetes
 apt-get update
 
@@ -46,7 +48,7 @@ systemctl start apache2
 # Muestra el estado del servicio
 systemctl status apache2
 
-# Código del mysql_provision.sh aquí
+# Código del mysql_provision.sh 
 
 # Actualiza los paquetes
 apt-get update
@@ -54,7 +56,7 @@ apt-get update
 # Instala MySQL
 apt-get install -y mysql-server
 
-# Asegúrate de que el servicio de MySQL esté habilitado
+# Asegúra que el servicio de MySQL esté habilitado
 systemctl enable mysql
 
 # Inicia el servicio de MySQL
