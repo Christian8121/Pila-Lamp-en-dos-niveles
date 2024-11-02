@@ -77,6 +77,10 @@ systemctl status mysql
 ![Captura de pantalla 2024-11-02 130624](https://github.com/user-attachments/assets/f7b73966-db85-4584-b62a-2f9043e270c0)
 ![Captura de pantalla 2024-11-02 130700](https://github.com/user-attachments/assets/c5edb394-0cca-4bab-bc7b-c15f1bf53089)
 
+## Capturas de Pantalla de los dos servicios en funcionamiento
+![Captura de pantalla 2024-11-02 133440](https://github.com/user-attachments/assets/3859c100-b508-4399-b929-792b3ef7ca21)
+
+
 
 
 
