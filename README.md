@@ -77,6 +77,15 @@ systemctl status mysql
 ![Captura de pantalla 2024-11-02 130624](https://github.com/user-attachments/assets/f7b73966-db85-4584-b62a-2f9043e270c0)
 ![Captura de pantalla 2024-11-02 130700](https://github.com/user-attachments/assets/c5edb394-0cca-4bab-bc7b-c15f1bf53089)
 
+## Capturas de Pantalla de la conexion entre Vagrant y Github
+![Captura de pantalla 2024-11-02 132127](https://github.com/user-attachments/assets/727c3eba-255d-4c04-b3f5-a205c211f566)
+![Captura de pantalla 2024-11-02 132140](https://github.com/user-attachments/assets/2644c00b-a8bb-47b8-af7d-1ffab73ae975)
+![Captura de pantalla 2024-11-02 132352](https://github.com/user-attachments/assets/f480038a-4c1a-45b3-b09b-bff40e7265f9)
+![Captura de pantalla 2024-11-02 132952](https://github.com/user-attachments/assets/6e70032f-a2d3-4f06-9e8b-e6e22defc005)
+
+
+
+
 ## Capturas de Pantalla de los dos servicios en funcionamiento
 ![Captura de pantalla 2024-11-02 133440](https://github.com/user-attachments/assets/3859c100-b508-4399-b929-792b3ef7ca21)
 
